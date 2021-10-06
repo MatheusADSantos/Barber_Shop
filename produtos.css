@@ -1,5 +1,18 @@
 header {
+  padding: 20px 0;
   background: #BBBBBB;
+}
+
+.box-itens {
+  position: relative; /*Now I can */
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute; /*Now I can move a component freely*/
+  top: 110px ;
+  right: 0;
 }
 
 nav li {
